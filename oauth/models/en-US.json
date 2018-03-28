@@ -1,0 +1,32 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "account link man",
+            "types": [],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyNameIsIntent",
+                    "slots": [],
+                    "samples": [
+                        "What's my name",
+                        "What is my name",
+                        "Can you tell me my name",
+                        "Tell me my name"
+                    ]
+                }
+            ]
+        }
+    }
+}

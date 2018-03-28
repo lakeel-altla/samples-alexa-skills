@@ -1,0 +1,51 @@
+{
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "IDLE"
+        },
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.e4ad05ac-7ba6-4c9a-b8c2-a294703e088a"
+            },
+            "device": {
+                "supportedInterfaces": {
+                    "AudioPlayer": {}
+                }
+            },
+            "user": {
+                "userId": "amzn1.ask.account.xxx"
+            }
+        }
+    },
+    "request": {
+        "intent": {
+            "name": "FetchWeatherIntent",
+            "slots": {
+                "city": {
+                    "name": "city",
+                    "value": "London"
+                },
+                "date": {
+                    "name": "date",
+                    "value": "2017-10-11"
+                }
+            }
+        },
+        "locale": "en-GB",
+        "requestId": "amzn1.echo-api.request.xxx",
+        "timestamp": "2016-10-27T21:06:28Z",
+        "type": "IntentRequest"
+    },
+    "session": {
+        "application": {
+            "applicationId": "amzn1.ask.skill.e4ad05ac-7ba6-4c9a-b8c2-a294703e088a"
+        },
+        "attributes": {},
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.xxx",
+        "user": {
+            "userId": "amzn1.ask.account.xxx"
+        }
+    },
+    "version": "1.0"
+}

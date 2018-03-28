@@ -1,0 +1,35 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "weather man",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FetchWeatherIntent",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.GB_CITY",
+                            "samples": []
+                        }
+                    ],
+                    "samples": [
+                        "in {city}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

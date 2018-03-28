@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a skill that tells the weather.",
+          "name": "weather",
+          "description": "This is a skill that tells the weather.",
+          "examplePhrases": [
+            "Alexa ask wether man in London",
+            "Alexa launch wether man in London",
+            "Alexa open wether man in seattle"
+          ],
+          "smallIconUri": "https://damassets.autodesk.net/content/dam/autodesk/www/solutions/bim/images/stories/10-steps-to-BIM-icon-step-10-108x108px.png",
+          "largeIconUri": "http://www.icons101.com/icon_png/size_512/id_70105/Weather.png",
+          "keywords": [
+            "Weather",
+            "Forecast"
+          ]
+        },
+        "en-GB": {
+          "summary": "This is a skill that tells the weather.",
+          "name": "weather-skill",
+          "description": "This is a skill that tells current weather.",
+          "examplePhrases": [
+            "Alexa ask wether man in London",
+            "Alexa launch wether man in London",
+            "Alexa open wether man in seattle"
+          ],
+          "smallIconUri": "https://damassets.autodesk.net/content/dam/autodesk/www/solutions/bim/images/stories/10-steps-to-BIM-icon-step-10-108x108px.png",
+          "largeIconUri": "http://www.icons101.com/icon_png/size_512/id_70105/Weather.png",
+          "keywords": [
+            "Weather",
+            "Forecast"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Just say 'Alexa ask wether in London'",
+      "category": "WEATHER",
+      "distributionCountries": [
+        "US",
+        "GB"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/src"
+        }
+      }
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://www.myprivacypolicy.sampleskill.com",
+          "termsOfUseUrl": "http://www.termsofuse.sampleskill.com"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "http://www.myprivacypolicy.sampleskill.com",
+          "termsOfUseUrl": "http://www.termsofuse.sampleskill.com"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
